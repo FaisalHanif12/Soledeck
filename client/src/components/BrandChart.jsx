@@ -14,6 +14,8 @@ const BrandChart = () => {
 
   const { brand } = filters;
 
+  console.log("Menu State:", menuState); // Logging the menu state for debugging
+
   const handleSelect = (e) => {
     const name = e.target.name;
     const isChecked = e.target.checked;
