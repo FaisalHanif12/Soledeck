@@ -2,10 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from '../assets/items/adidas_yeezy_700_wave_runner.png';
 import { Link } from 'react-router-dom';
+
+// Component for displaying the logo and linking to the homepage
 const Logo = () => {
   return (
     <Wrapper>
-      <Image src={logo} />
+      <Image src={logo} alt="SneakersShop Logo" />
       <Title>
         <Link to='/'>SneakersShop</Link>
       </Title>
