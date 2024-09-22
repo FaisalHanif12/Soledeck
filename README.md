@@ -1,45 +1,6 @@
 # Sneakers Shop App
-> E-Commerce App built with the MERN stack.
-
-This is a sample application that demonstrates an E-commerce website using the MEAN stack.
-The application loads products a MongoDB database and displays them.
-Users can add products to their cart, purchase products and even rate them!
-Users can choose exactly which product they want with helpful filtering functionality.
-
-Link: https://sneakers-shop.onrender.com/
-
-## Home page
-![screenshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/home_page.png)
-
-## Products
-![screenshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/Products.png)
-
-## User cart && orders
-![screehnshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/cart_orders.png)
-
-## Admin
-![screehnshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/Admin.png)
-
-
-
-
-# Built with
-
-### Client - 
-- React.js
-- Apollo Client
-- React Redux
-- Styled Components
-- Material UI
-### Server - 
-- Node.js
-- Express
-- GraphQL 
-- MongoDB
-
+> 
 # Features
-
-- Fully responsive for mobiles
 
 ### User -
 - Sign in \ Register \ Sign out
@@ -60,7 +21,35 @@ Link: https://sneakers-shop.onrender.com/
 - Add new product to shop page
 - Edit an exist product
 
-# Usage
+
+# Built with
+
+### Client - 
+- React.js
+- Apollo Client
+- React Redux
+- Styled Components
+- Material UI
+### Server - 
+- Node.js
+- Express
+- GraphQL 
+- MongoDB
+
+
+
+## Home page
+![screenshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/home_page.png)
+
+## Products
+![screenshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/Products.png)
+
+## User cart && orders
+![screehnshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/cart_orders.png)
+
+## Admin
+![screehnshot](https://github.com/amitshuu/sneakers-shop/blob/master/uploads/Admin.png)
+
 
 Create a .env file in the root and add the following
 
@@ -85,12 +74,4 @@ npm run client
 npm run server
 ```
 
-
-### Dummy Data 
-```
-Exit server
-Navigate to seeder.js
-Run in terminal : node seeder.js
-Run the server again.
-```
 
