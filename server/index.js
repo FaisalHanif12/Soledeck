@@ -15,11 +15,7 @@ app.use(express.static(path.join(__dirname, '../client/build')));
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
 });
-// app.use(express.static('public'));
 
-// app.get('*', (req, res) => {
-//   res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
-// });
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
