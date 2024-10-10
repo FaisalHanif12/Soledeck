@@ -24,7 +24,7 @@ const theme = createTheme({
 });
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://soledeck.onrender.com/graphql',
 });
 
 
